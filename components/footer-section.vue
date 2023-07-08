@@ -1,0 +1,86 @@
+<template>
+  <base-section id="footer" color="base" :menu-data="menuData">
+    <h2 class="center:all margin-bottom:s1"><a href="/"><img src="images/design-pub-logo.svg" alt=""></a></h2>
+    <center-l size="wide">
+      
+      <div class="footer-columns">
+        <div class="col">
+          <nav class="footer-menu">
+            <stack-l space="var(--s-1)">
+              <a href="#benefits">Benefits</a>
+              <a href="#how-it-works">How it works</a>
+              <a href="#services">Services</a>
+              <a href="#pricing">Pricing</a>
+              <a href="mailto:claudio@designpub.co">Contact</a>
+            </stack-l>
+          </nav>
+        </div>
+        <div class="col2">
+          <p>Design Pub is a design studio, specialized in Publications, Presentations, and Infographics. With our unique service model, we revolutionized the collaboration process between designers and clients. <br><strong>Less bureaucracy, more design.</strong></p>
+        </div>
+        <div class="col">
+          <stack-l space="var(--s-2)">
+            <div class="social-media">
+              <h4 class="dp-h4">Follow Us</h4>
+              <a href=""><img src="images/twitter.svg" alt=""></a>
+              <a href=""><img src="images/linkedin.svg" alt=""></a>
+            </div>
+            
+            <div data-visibility="desktop-only">
+              <h4 class="dp-h4">Leave your best contact</h4>
+              <p><small>Prepare yourself & let’s explore the best of design</small></p>
+              <base-input />
+              <base-button size="s" color="primary" visual="primary">Contact Now</base-button>
+            </div>
+          </stack-l>
+        </div>
+      </div>
+    </center-l>
+  </base-section>
+</template>
+
+<script setup>
+import { toRefs } from 'vue'
+
+const props = defineProps({
+  menuData: {
+    type: Array,
+    default: []
+  },
+});
+
+const { menuData } = toRefs(props)
+</script>
+
+<style lang="scss" scoped>
+
+h2 {
+}
+
+.footer-menu {
+  a {
+    display: block;
+  }
+}
+
+.footer-columns {
+  display: flex;
+  gap: var(--s2);
+}
+
+.col { flex: 1; }
+.col2 { flex: 2; }
+
+.social-media {
+  display: flex;
+  align-items: center;
+  // justify-content: space-around;
+
+  h4 { flex-basis: 100px; }
+
+  * {
+    flex: 0;
+    flex-basis: 32px;
+  }
+}
+</style>
