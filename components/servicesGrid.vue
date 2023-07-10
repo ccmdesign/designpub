@@ -54,7 +54,7 @@ const cards = [
   --card-image-fit: contain;
   // --card-horizontal-image-max-width: 220px;
   :deep(.base-card__img) {
-    border: 1px solid red;
+    // border: 1px solid red;
     justify-content: center;
     text-align: center;
     align-items: center;

@@ -16,7 +16,7 @@
             size="xl"
             class="align-self:center"
             color="primary"
-            href="#"
+            href="#pricing"
           >Get Started Now!</dp-button>
           <img class="decor circle" src="images/decor-2.svg" alt="" data-visibility="desktop-only" >
           <img class="decor arrows" src="images/decor-3.svg" alt="" data-visibility="desktop-only" >

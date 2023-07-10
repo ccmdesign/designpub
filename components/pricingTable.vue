@@ -6,17 +6,17 @@
         <td class="prices highlight">
           <h4>Monthly</h4>
           <h3>$5,000 <span>/mo</span></h3>
-          <base-button size="s" visual="unstyled">Book a Call</base-button>
+          <base-button el="a" target="_blank" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" size="s" visual="unstyled">Book a Call</base-button>
         </td>
         <td class="prices">
-          <h4>Monthly</h4>
+          <h4>Quarterly</h4>
           <h3>$4,500 <span>/mo</span></h3>
-          <base-button size="s" visual="unstyled">Book a Call</base-button>
+          <base-button el="a" target="_blank" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" size="s" visual="unstyled">Book a Call</base-button>
         </td>
         <td class="prices">
-          <h4>Monthly</h4>
+          <h4>Yearly</h4>
           <h3>$4,000 <span>/mo</span></h3>
-          <base-button size="s" visual="unstyled">Book a Call</base-button> 
+          <base-button el="a" target="_blank" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" size="s" visual="unstyled">Book a Call</base-button> 
         </td>
       </tr>
       <tr>
@@ -45,9 +45,9 @@
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td class="highlight"><dp-button visual="primary" size="l" color="accent">Get Started</dp-button></td>
-        <td><dp-button visual="primary" size="l" color="accent">Get Started</dp-button></td>
-        <td><dp-button visual="primary" size="l" color="accent">Get Started</dp-button></td>
+        <td class="highlight"><dp-button el="a" visual="primary" size="l" color="accent" href="https://buy.stripe.com/eVa6rp6yPcr3gCY3cf" target="_blank">Get Started</dp-button></td>
+        <td><dp-button visual="primary" size="l" color="accent" el="a" target="_blank" href="https://buy.stripe.com/bIY7vt3mDdv786seUY">Get Started</dp-button></td>
+        <td><dp-button visual="primary" size="l" color="accent" el="a" target="_blank" href="https://buy.stripe.com/14k7vt4qH8aNfyUeUZ">Get Started</dp-button></td>
       </tr>
     </table>
   </div>
@@ -64,6 +64,7 @@ table {
 
 td { 
   padding: var(--s0) var(--s1);
+  border-bottom: 1px solid hsla(var(--white-hsl), .1);
 }
 
 td:first-child {
@@ -132,6 +133,10 @@ td .button[visual='unstyled'] {
   * { color: var(--white-color); }
   h4 { color: var(--accent-color); }
   h3 > span { opacity: .6; }
+  a.button {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
 }
 
 </style>

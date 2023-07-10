@@ -5,7 +5,7 @@
         <h2 class="dp-h2 | color:white" >Pricing</h2>
         <h3 class="dp-tagline | color:white" >Simple pricing. No surprise fees.</h3>
         <pricing-table class="pricing-table" />
-        <dp-button size="l" icon-before="phone" class="align-self:center margin-top:s2">Book a call</dp-button>
+        <dp-button size="l" icon-before="phone" el="a" target="_blank" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" class="align-self:center margin-top:s2">Book a call</dp-button>
       </stack-l>
     </center-l>
   </base-section>

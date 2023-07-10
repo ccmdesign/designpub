@@ -3,10 +3,11 @@
     <div class="top-nav" >
       <a href="/"><img src="images/design-pub-logo.svg" alt=""></a>
       <nav data-visibility="desktop-only">
-        <a href="">How it works</a>
-        <a href="">Services</a>
-        <a href="">Pricing</a>
-        <dp-button el="a" visual="primary" color="primary" size="s">Get Started Now</dp-button>
+        <a href="#how-it-works">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#services">Services</a>
+        <a href="#faq">FAQ</a>
+        <dp-button el="a" visual="primary" color="primary" size="s" href="#pricing">Get Started Now</dp-button>
       </nav>
     </div>
   </center-l>

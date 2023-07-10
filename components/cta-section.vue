@@ -4,7 +4,7 @@
       <stack-l space="var(--s2)">
         <h4>Get started</h4>
         <p class="message">Ready to see your ideas transformed into compelling visuals? <strong class="message">Start your design journey with us today and experience a process as seamless and efficient as the designs we deliver!</strong></p>
-        <p><dp-button color="primary" visual="primary" size="l">Get Started Now!</dp-button></p>
+        <p><dp-button color="primary" visual="primary" size="l" el="a" target="_blank" href="https://buy.stripe.com/eVa6rp6yPcr3gCY3cf">Get Started Now!</dp-button></p>
       </stack-l>
     </center-l>
   </base-section>

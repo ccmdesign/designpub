@@ -23,6 +23,7 @@ const { cardData } = toRefs(props)
   .dp-card {
     --card-border: 0;
     --card-bg-hsl: transparent;
+    pointer-events: none;
 
     h3 {
       color:var(--accent-color);

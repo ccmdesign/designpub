@@ -13,7 +13,7 @@
         <h2 class="dp-h2 | color:base">Services</h2>
         <h3 class="dp-tagline">Breathe Life Into Your Story with High-End Publication Design</h3>
         <services-grid />
-        <dp-button size="l" color="primary" visual="primary" icon-before="phone" class="margin-top:s3 align-self:center">Wanna know more,<br class="mobile-only"> book a call</dp-button>
+        <dp-button el="a" target="_blank" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" size="l" color="primary" visual="primary" icon-before="phone" class="margin-top:s3 align-self:center">Wanna know more,<br class="mobile-only"> book a call</dp-button>
       </stack-l>
     </center-l>
   </base-section>
@@ -26,6 +26,8 @@
       </stack-l>
     </center-l>
   </base-section>
+
+  <contact-section />
 
   <footer-section />
 </template>

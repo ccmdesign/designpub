@@ -20,18 +20,12 @@
         </div>
         <div class="col">
           <stack-l space="var(--s-2)">
-            <div class="social-media">
+            <!-- <div class="social-media">
               <h4 class="dp-h4">Follow Us</h4>
               <a href=""><img src="images/twitter.svg" alt=""></a>
               <a href=""><img src="images/linkedin.svg" alt=""></a>
-            </div>
-            
-            <div data-visibility="desktop-only">
-              <h4 class="dp-h4">Leave your best contact</h4>
-              <p><small>Prepare yourself & let’s explore the best of design</small></p>
-              <base-input />
-              <base-button size="s" color="primary" visual="primary">Contact Now</base-button>
-            </div>
+            </div> -->
+            <dp-button icon-before="phone" el="a" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" target="_blank">Book a call</dp-button>
           </stack-l>
         </div>
       </div>
