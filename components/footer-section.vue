@@ -1,8 +1,8 @@
 <template>
   <base-section id="footer" color="base" :menu-data="menuData">
-    <h2 class="center:all margin-bottom:s1"><a href="/"><img src="images/design-pub-logo.svg" alt=""></a></h2>
+    <h2 class="center:all margin-bottom:s1"><a href="/"><img src="/images/design-pub-logo.svg" alt=""></a></h2>
     <center-l size="wide">
-      
+
       <div class="footer-columns">
         <div class="col">
           <nav class="footer-menu">
@@ -22,8 +22,8 @@
           <stack-l space="var(--s-2)">
             <!-- <div class="social-media">
               <h4 class="dp-h4">Follow Us</h4>
-              <a href=""><img src="images/twitter.svg" alt=""></a>
-              <a href=""><img src="images/linkedin.svg" alt=""></a>
+              <a href=""><img src="/images/twitter.svg" alt=""></a>
+              <a href=""><img src="/images/linkedin.svg" alt=""></a>
             </div> -->
             <dp-button icon-before="phone" el="a" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" target="_blank">Book a call</dp-button>
           </stack-l>

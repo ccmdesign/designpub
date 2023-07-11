@@ -1,7 +1,7 @@
 <template>
   <center-l size="wide">
     <div class="top-nav" >
-      <a href="/"><img src="images/design-pub-logo.svg" alt=""></a>
+      <a href="/"><img src="/images/design-pub-logo.svg" alt=""></a>
       <nav data-visibility="desktop-only">
         <a href="#how-it-works">How it works</a>
         <a href="#pricing">Pricing</a>
