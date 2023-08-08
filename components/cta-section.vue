@@ -2,12 +2,18 @@
   <base-section color="primary-10" class="cta-section" size="s">
     <center-l size="wide" class="cta-section__content">
       <stack-l space="var(--s2)">
-        <h4>Get started</h4>
-        <p class="message">Ready to see your ideas transformed into compelling visuals? <strong class="message">Start your design journey with us today and experience a process as seamless and efficient as the designs we deliver!</strong></p>
-        <p><dp-button color="primary" visual="primary" size="l" el="a" target="_blank" href="https://buy.stripe.com/eVa6rp6yPcr3gCY3cf">Get Started Now!</dp-button></p>
+        <!-- For SEO: Use a higher header tag for important content and add a keyword -->
+        <h2 id="get-started">Get started with our design services</h2>
+        <!-- For Accessibility: Use a clearer, more descriptive class -->
+        <p class="cta-message">Ready to see your content transformed into ready-to-launch publications? <strong class="highlighted-message">Subscribe to our servcies and experience fast turnarounds and a seamless collaboration process.</strong></p>
+        <p>
+          <!-- For Accessibility: Add aria-label for clearer instructions -->
+          <dp-button color="primary" visual="primary" size="l" el="a" target="_blank" href="https://buy.stripe.com/eVa6rp6yPcr3gCY3cf" aria-label="Subscribe our services by clicking this button.">Subscribe Now!</dp-button>
+        </p>
       </stack-l>
     </center-l>
-  </base-section>
+</base-section>
+
 </template>
 
 <script setup>
@@ -24,7 +30,7 @@
   padding-block: var(--s4);
 }
 
-h4 {
+h2 {
   
   color: var(--primary-color);
   text-align: center;

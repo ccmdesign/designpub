@@ -4,7 +4,7 @@
     <center-l size="wide">
 
       <div class="footer-columns">
-        <div class="col">
+        <div class="col" data-visibility="desktop-only">
           <nav class="footer-menu">
             <stack-l space="var(--s-1)">
               <a href="#benefits">Benefits</a>
@@ -15,7 +15,7 @@
             </stack-l>
           </nav>
         </div>
-        <div class="col2">
+        <div class="col2" data-visibility="desktop-only">
           <p>Design Pub is a design studio, specialized in Publications, Presentations, and Infographics. With our unique service model, we revolutionized the collaboration process between designers and clients. <br><strong>Less bureaucracy, more design.</strong></p>
         </div>
         <div class="col">
@@ -25,7 +25,7 @@
               <a href=""><img src="/images/twitter.svg" alt=""></a>
               <a href=""><img src="/images/linkedin.svg" alt=""></a>
             </div> -->
-            <dp-button icon-before="phone" el="a" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" target="_blank">Book a call</dp-button>
+            <dp-button class="call-btn" icon-before="phone" el="a" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" target="_blank">Book a call</dp-button>
           </stack-l>
         </div>
       </div>
@@ -75,6 +75,12 @@ h2 {
   * {
     flex: 0;
     flex-basis: 32px;
+  }
+}
+
+.call-btn {
+  @media (max-width: 32em) {
+    align-self: center;
   }
 }
 </style>

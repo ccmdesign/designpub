@@ -1,5 +1,29 @@
 <template>
-  <ul class="faq-list">
+  <ul class="faq-list" role="list">
+    <stack-l space="var(--s1)">
+      <li class="faq-item" 
+          v-for="(i, index) in list" 
+          :key="index"
+          :list-id="index" 
+          :expanded="expanded == index ? true : false" 
+          @click="toggleExpand(index)"
+          @keydown.space.prevent="toggleExpand(index)"
+          @keydown.enter.prevent="toggleExpand(index)"
+          tabindex="0"
+          role="button"
+          :aria-expanded="expanded == index ? 'true' : 'false'"
+      >
+        <stack-l class="faq-item__content">
+          <h4>{{ i.question }}</h4>
+          <p v-show="expanded == index">{{ i.answer }}</p>
+        </stack-l>
+        <base-button v-if="expanded == index" icon-before="expand_less" size="l" visual="untyled"></base-button>
+        <base-button v-else icon-before="expand_more" size="l" visual="untyled"></base-button>
+      </li>
+    </stack-l>
+  </ul>
+
+  <!-- <ul class="faq-list">
     <stack-l space="var(--s1)">
       <li class="faq-item" v-for="(i, index) in list" :list-id="index" :expanded="expanded == index ? true : false" @click="toggleExpand(index)">
         <stack-l class="faq-item__content">
@@ -10,7 +34,7 @@
         <base-button v-else icon-before="expand_more" size="l" visual="untyled"></base-button>
       </li>
     </stack-l>
-  </ul>
+  </ul> -->
 </template>
 
 <script setup>

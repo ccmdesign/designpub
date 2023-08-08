@@ -3,9 +3,10 @@
 
   <dp-clients />
   <dp-projects />
+
   <how-it-works-section />
   
-  <cta-section />
+  <cta-section  />
   
   <pricing-section />
 

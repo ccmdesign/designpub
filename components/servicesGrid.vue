@@ -9,17 +9,17 @@ const cards = [
   {
     image: '/images/digital-publications.svg',
     heading: "Digital Publications",
-    excerpt: "If you want to provide a modern and interactive reading experience for your readers, digital publications are the ideal solution. They offer advanced features, global reach and content flexibility to ensure your message comes across in an impactful way."
-  },
-  {
-    image: '/images/printed-publications.svg',
-    heading: "Printed Publications",
-    excerpt: "Our Printed Publications are created with attention to detail and exceptional quality. From magazines and newspapers to books and brochures, each piece is carefully produced to convey a clear and impactful message."
+    excerpt: "If you want to provide a modern and interactive reading experience for your readers, digital publications are the ideal solution. They offer global reach and content flexibility to ensure your message comes across in an impactful way."
   },
   {
     image: '/images/presentations.svg',
     heading: "Presentations",
     excerpt: "Our presentations offer a professional and sophisticated look, with modern layouts and high-quality graphics. Each slide is carefully crafted to convey information clearly and concisely, keeping viewers' attention."
+  },
+  {
+    image: '/images/printed-publications.svg',
+    heading: "Printed Publications",
+    excerpt: "Our Printed Publications are created with attention to detail and exceptional quality. From magazines and newspapers to books and brochures, each piece is carefully produced to convey a clear and impactful message."
   },
   {
     image: '/images/infographics.svg',
@@ -62,8 +62,15 @@ const cards = [
   }
 
   :deep(img) {
+    @media (max-width: 32em) {
+      width: 120px;
+      height: 120px;
+    }
+    
     width: 240px;
     height: 240px;
+
+    
   }
 }
 
