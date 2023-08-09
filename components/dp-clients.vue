@@ -55,6 +55,13 @@ li {
 
 .clients {
   justify-content: center;
+  @media (max-width: 32em) {
+    flex-direction: column;
+  }
+}
+
+.clients li:nth-child(n+5) {
+  @media (max-width: 32em) { display:none; }
 }
 
 .clients a {
