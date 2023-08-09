@@ -16,7 +16,7 @@
           </nav>
         </div>
         <div class="col2" data-visibility="desktop-only">
-          <p>Design Pub is a design studio, specialized in Publications, Presentations, and Infographics. With our unique service model, we revolutionized the collaboration process between designers and clients. <br><strong>Less bureaucracy, more design.</strong></p>
+          <p>Design Pub is an initiave by <a href="https://ccmdesign.ca" target="_blank">CCM Design</a>, specialized in Publications, Presentations, and Infographics. With our unique service model, we reinvent the collaboration process between designers and clients. <br><strong>Less bureaucracy, more design.</strong></p>
         </div>
         <div class="col">
           <stack-l space="var(--s-2)">

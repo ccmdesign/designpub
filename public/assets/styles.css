@@ -2,7 +2,7 @@
 .dp-h3 {
   font-size: 7rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 92%;
   @media (max-width: 32em) { font-size: 4rem; }
 }

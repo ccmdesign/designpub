@@ -4,7 +4,7 @@ import { resolve } from "path";
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   meta: {
-    title: "Boilerplate DS",
+    title: "DesignPub",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
     ],
@@ -18,6 +18,10 @@ export default defineNuxtConfig({
           "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined",
       },
     ],
+  },
+  modules: ['nuxt-gtag'],
+  gtag: {
+    id: 'G-CP3NC0GSYB'
   },
   css: [
     '@ccmdesign/ccm-ds/assets/css/main.scss',

@@ -50,7 +50,7 @@ h3 {
 
 li {
   list-style: none;
-  max-width: 130px;
+  max-width: 180px;
 }
 
 .clients {
@@ -68,9 +68,9 @@ img {
   opacity: .2;
 }
 
-#bfna { max-width: 110px; }
-#berkeley { max-width: 110px; }
-#aspen-institute { max-width: 110px; }
+#bfna { max-width: 135px; }
+#berkeley { max-width: 135px; }
+#aspen-institute { max-width: 135px; }
 
 
 </style>

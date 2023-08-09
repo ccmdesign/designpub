@@ -1,5 +1,5 @@
 <template>
-  <ccm-hero color="base" height="auto">
+  <ccm-hero color="base" height="auto" class="dp-hero">
     <template #top-bar>
       <dp-topnav />
     </template>
@@ -26,7 +26,7 @@
           <base-button el="a" target="_blank" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" visual="unstyled" size="l" color="white" class="align-self:center">Book a Call</base-button>
         </cluster-l>
         <!-- For Accessibility: Add alt texts for images or presentational role if they're decorative -->
-        <img class="decor circle" src="images/decor-2.svg" alt="Decorative Circle" data-visibility="desktop-only" role="presentation">
+        <!-- <img class="decor circle" src="images/decor-2.svg" alt="Decorative Circle" data-visibility="desktop-only" role="presentation"> -->
         <img class="decor arrows" src="images/decor-3.svg" alt="Decorative Arrows" data-visibility="desktop-only" role="presentation">
       </stack-l>
     </center-l>
@@ -38,6 +38,10 @@
 </script>
 
 <style lang="scss" scoped>
+  .dp-hero {
+    
+  }
+
   .shaded-panel {
     background-color: hsla(var(--white-hsl), .03);
     padding: var(--s0);
