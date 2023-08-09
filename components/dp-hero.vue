@@ -26,8 +26,8 @@
           <base-button el="a" target="_blank" href="https://calendar.app.google/Q9xoTE8GwDMAuans9" visual="unstyled" size="l" color="white" class="align-self:center">Book a Call</base-button>
         </cluster-l>
         <!-- For Accessibility: Add alt texts for images or presentational role if they're decorative -->
-        <!-- <img class="decor circle" src="images/decor-2.svg" alt="Decorative Circle" data-visibility="desktop-only" role="presentation"> -->
-        <img class="decor arrows" src="images/decor-3.svg" alt="Decorative Arrows" data-visibility="desktop-only" role="presentation">
+        <img class="decor circle" src="/images/decor-2.svg" alt="Decorative Circle" data-visibility="desktop-only" role="presentation">
+        <img class="decor arrows" src="/images/decor-3.svg" alt="Decorative Arrows" data-visibility="desktop-only" role="presentation">
       </stack-l>
     </center-l>
   </ccm-hero>
