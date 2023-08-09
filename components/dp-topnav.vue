@@ -2,7 +2,7 @@
   <center-l size="wide">
     <div class="top-nav" >
       <!-- For Accessibility: Add alt text for the logo image -->
-      <a href="/"><img src="images/design-pub-logo.svg" alt="Design Pub Logo"></a>
+      <a href="/"><img src="/images/design-pub-logo.svg" alt="Design Pub Logo"></a>
       <nav data-visibility="desktop-only">
         <!-- For SEO and Accessibility: Provide more descriptive link text -->
         <a href="#how-it-works" aria-label="Learn how our service works">How it works</a>
