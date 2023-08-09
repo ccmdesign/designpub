@@ -64,6 +64,7 @@
     font-style: normal;
     font-weight: 300;
     letter-spacing: .25px;
+    margin-right:3rem;
     max-width: 60ch;
     @media (max-width: 32em) {
       max-width: 32ch;
