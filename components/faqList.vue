@@ -57,7 +57,7 @@ const list = [
   },
   {
     question: "Who can benefit from Design Pub's services?",
-    answer: 'DesignPub was created with researchers in mind. Think tanks, universities, non-profits, research institutions, etc. all have a high demand for editorial design, that is not fulfilled. That’s our initial audience. We also have agencies maintaining an account with us, so we can work as their extra team when things get rough.'
+    answer: 'DesignPub was created for with organizations that have a high demand for editorial design.'
   },
   {
     question: "How does Design Pub's unique service model work?",
